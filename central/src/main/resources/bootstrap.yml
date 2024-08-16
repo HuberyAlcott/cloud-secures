@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: secure-central
+  main:
+    banner-mode: off
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:${server.port:42000}/eureka/
+  instance:
+    hostname: localhost
+    prefer-ip-address: true

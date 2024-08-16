@@ -1,0 +1,8 @@
+server:
+  port: 42000
+
+logging:
+  level:
+    root: info
+    web: info
+    ferrous: debug
