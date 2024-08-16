@@ -1,0 +1,9 @@
+/.DS_Store
+/.idea
+
+/*/.DS_Store
+/*/.idea
+/*/*.iml
+/*/target
+/*/src/main/resources/application-uat.yml
+/*/src/main/resources/bootstrap-uat.yml
